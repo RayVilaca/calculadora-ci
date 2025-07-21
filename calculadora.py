@@ -29,4 +29,4 @@ def multiplicacao(a, b):
     Returns:
     int or float: O produto dos dois números.
     """
-    return a * (b-1)
+    return a * b
