@@ -2,9 +2,9 @@ name: Testes da Calculadora
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   testar:
