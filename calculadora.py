@@ -19,3 +19,14 @@ def subtracao(a, b):
     int or float: O resultado da subtração.
     """
     return a - b
+
+def multiplicacao(a, b):
+    """
+    Essa função recebe dois números e retorna a multiplicação deles.
+    Parameters:
+    a (int or float): O primeiro número a ser multiplicado.
+    b (int or float): O segundo número a ser multiplicado.
+    Returns:
+    int or float: O produto dos dois números.
+    """
+    return a * (b-1)
